@@ -37,6 +37,7 @@ const Home = () => {
                                         </span>
                                     </div>
                                     <div className="posterImage__description">{movie ? movie.overview : ""}</div>
+
                                 </div>
 
                             </Link>
@@ -45,6 +46,8 @@ const Home = () => {
                     </Carousel>
                 </div>
                 <MovieList />
+
+
             </div>
         </>
     )

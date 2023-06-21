@@ -19,6 +19,7 @@ function App() {
           <Route path='/*' element={<h1> Wrong Page</h1>}></Route>
         </Routes>
       </BrowserRouter>
+      <div className="copyright">Developed by Saiyam Jain • 2023</div>
 
     </div>
   );
